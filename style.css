@@ -25,7 +25,7 @@ a {
 
 .left {
   flex: 1;
-  background-image: url(/pictures/hybrid-gE1phX0Lbos-unsplash.jpg);
+  background-image: url(pictures/background.jpg);
   background-size: 110% 100%;
   color: rgb(255, 255, 255);
   position: relative;
