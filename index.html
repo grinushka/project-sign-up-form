@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing-up form</title>
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whole">
+      <div class="left">
+        <div class="logo">
+          <img src="oneiromancy.png" alt="logo" />
+          <p>DIVINE</p>
+        </div>
+        <p>
+          Photo by <a href="https://unsplash.com/@artbyhybrid">Hybrid</a> on
+          <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
+      <div class="right">
+        <div class="text">
+          <p>
+            We're glad that you've found us! You definitely need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span>now</span> to get started.
+          </p>
+          <p>You <span>know</span> you want to.</p>
+        </div>
+        <div class="form">
+          <form action="example.com/path" method="post">
+            <fieldset>
+              <legend>Let's do this!</legend>
+              <div>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="first_name" id="firstName" />
+              </div>
+              <div>
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="last_name" id="lastName" />
+              </div>
+              <div>
+                <label for="email">EMAIL</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div>
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="text" name="phone_number" id="phoneNumber" />
+              </div>
+              <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required />
+              </div>
+              <div>
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm_password"
+                  id="confirmPassword"
+                  required
+                />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="sign-in">
+          <button type="submit">Create Account</button>
+        </div>
+        <div class="log-in">
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

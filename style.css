@@ -1,0 +1,160 @@
+/* OVERALL STYLE */
+* {
+  font-family: "Lato", sans-serif;
+}
+/* font-family: 'Arapey', serif; */
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* RIGHT SIDE STYLING */
+.whole {
+  display: flex;
+  /* height: 100%; */
+  width: 80%;
+  margin: auto;
+}
+
+.left {
+  flex: 1;
+  background-image: url(hybrid-gE1phX0Lbos-unsplash.jpg);
+  background-size: 110% 100%;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.right {
+  flex: 2;
+  background-color: rgb(248, 248, 248);
+}
+
+.logo {
+  margin-top: 150px;
+  background-color: #00000079;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 51px;
+  max-width: 65px;
+  max-height: 65px;
+}
+
+.logo p {
+  display: inline;
+  font-size: 45px;
+}
+
+/* LEFT SIDE STYLYING */
+.left > p {
+  position: absolute;
+  bottom: 7px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.left > p > a {
+  color: white;
+}
+
+.text {
+  margin: 55px 165px 0px 25px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.text > p {
+  margin-bottom: 20px;
+}
+
+span {
+  font-style: italic;
+}
+
+.sign-in button {
+  border: 0;
+  border-radius: 8px;
+  padding: 9px 40px;
+  margin: 30px 0px 35px 35px;
+  background-color: #7a456a;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 1px 1px 5px 0.5px rgba(119, 119, 119, 0.8);
+}
+
+.log-in {
+  margin-left: 35px;
+  margin-bottom: 100px;
+}
+
+.log-in a {
+  color: #7a456a;
+  font-weight: 700;
+}
+
+/* FORM STYLE */
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 15px 0 10px 25px;
+  box-shadow: 0 3px 5px 0px rgb(192, 192, 192);
+}
+
+input {
+  display: block;
+  font-size: 18px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1px 0px 10px 0px;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+/* Validation */
+
+input:focus {
+  outline: none;
+  border: 1.5px solid rgb(45, 118, 255);
+  box-shadow: 0.5px 0.5px 4px 0.5px rgba(190, 190, 190, 0.8);
+}
+
+input:invalid:required {
+  border-color: red;
+}
+
+label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgb(39, 39, 39);
+}
+
+fieldset div {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+legend {
+  float: left;
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(43, 43, 43);
+}
